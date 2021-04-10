@@ -1,0 +1,179 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <title>Rent-Home</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/c    ss2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+
+	<!-- font awesome -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+
+    		<div class="container">
+  		 	<div class="navbar">
+		  		<div class="logo">
+					<a href="Home.html">  
+		  			<img src="img/logo 2 .png" width="70px">
+					</a>
+		  		</div>
+		  		<nav>
+		  			<ul>
+		  				<li><a href="Home.html">Home</a></li>
+		  				<li><a href="Home.html">About</a></li>
+		  				<li><a href="rent.html">Rent</a></li>
+						<li><a href="post-1.html">Post</a></li>
+		  				<li><a href="profile.html">Profile</a></li>
+		  				<li><a href="Home.html">Contact us</a></li>
+		  			</ul>
+		  		</nav>
+		  	</div>
+
+  		
+  	   </div>
+
+  <!-- single product details -->
+      <section class="pro-1">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/post-1.jpg" id="ProductImg" >
+            <div class="small-img-row">
+              <div class="small-img-col">
+                <img src="img/1.jpg" width="100%" class="small-img">
+              </div>
+              <div class="small-img-col">
+                <img src="img/2.jpg" width="100%" class="small-img">
+              </div>
+              <div class="small-img-col">
+                <img src="img/3.jpg" width="100%" class="small-img">
+              </div>
+              <div class="small-img-col">
+                <img src="img/4.jpg" width="100%" class="small-img">
+              </div>
+            </div>
+          </div>
+          <div class="col-2 de" >
+            <h2>A Comfortable And Convenient 1000 Sq. Ft -3 Bedroom House Is Ready For Rent At Dhanmondi!</h2>
+            <br>
+            <h3>Details</h3>
+            <br>
+            <h5>3 Beds, 1 Kitchen, 2 valconies, 2 Bathrooms <br> <br>
+            It is the exact place if you are looking for one of the most picked and affordable properties in a congenial zone. The scenic building includes amazing bed and bath which are enough to get you swayed to seize the flat right away. Rooms are all combined with</h5>
+            <a href="" class="btn">Call Now</a>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+    <!-- footer -->
+        <footer>
+      <div class="footer-wrap">
+        <div class="widgetFooter">
+          <h4 class="uppercase">useful links</h4>
+          <ul id="footerUsefulLink">
+            <li title="About US">
+              <span class="usefulLinksIcons">
+                <i class="fa fa-id-card"></i>
+              </span>
+              <a>&nbsp;About us</a>
+            </li>
+            <li title="Our Team">
+              <span class="usefulLinksIcons">
+                <i class="fa fa-handshake-o"></i>
+              </span>
+              <a>&nbsp;Our team</a>
+            </li>
+            <li title="Gallery">
+              <span class="usefulLinksIcons">
+                <i class="fa fa-picture-o"></i>
+              </span>
+              <a>&nbsp;Gallery</a>
+            </li>
+            <li title="Contact Us">
+              <span class="usefulLinksIcons">
+                <i class="fa fa-envelope"></i>
+              </span>
+              <a>&nbsp;Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="widgetFooter" id="footerLogo">
+          <img src="img/flogo.png" alt="Logo">
+        </div>
+        <div class="widgetFooter">
+          <h4 class="uppercase">Social media links</h4>
+          <ul id="footerMediaLinks">
+            <li class="media1" title="Facebook">
+              <span class="mediaLinksIcons fb">
+                <i class="fa fa-facebook-square"></i>
+              </span>
+              <a class="fb">&nbsp;facebook</a>
+            </li>
+            <li class="media2" title="Twitter">
+              <span class="mediaLinksIcons twit">
+                <i class="fa fa-twitter-square"></i>
+              </span>
+              <a class="twit">&nbsp;Twitter</a>
+            </li>
+            <li class="media3"  title="Instagram">
+              <span class="mediaLinksIcons insta">
+                <i class="fa fa-instagram"></i>
+              </span>
+              <a class="insta">&nbsp;instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerCopy">
+        <div class="inb">
+          <p>Copyrights<sup>&copy;</sup> 2021. Developed with <i class="fas fa-heart" style="color: red;"></i> by DATA PIRATES & team</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+    <!-- js -->
+    <script>
+      var ProductImg = document.getElementById("ProductImg");
+      var SmallImg = document.getElementsByClassName("small-img");
+
+         SmallImg[0].onclick = function(){
+           ProductImg.src = SmallImg[0].src;
+         }
+
+         SmallImg[1].onclick = function(){
+           ProductImg.src = SmallImg[1].src;
+         }
+
+         SmallImg[2].onclick = function(){
+           ProductImg.src = SmallImg[2].src;
+         }
+
+         SmallImg[3].onclick = function(){
+           ProductImg.src = SmallImg[3].src;
+         }
+    </script>
+
+
+
+  </body>
+</html>
+
+</body>
+</html>

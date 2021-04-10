@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.head{
+	background : linear-gradient(#7474bf,#83eaf1);
+
+}
+h1,h2,h3,h4,h5,h6,p,a,input,span{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+	max-width: 1140px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+
+}
+nav ul li a{
+	color: #000;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000;
+
+}
+nav ul li a:hover{
+	color: tomato;
+}
+
+.information{
+	text-align: center;
+}
+.information h2{
+	margin-bottom: 10px;
+}
+.propic img{
+	width: 300px;
+
+}
+.proicon a i{
+	font-size: 24px;
+	color: blue;
+	font-weight: bold;
+	margin-right: 20px;
+
+}
+.proicon a i:hover{
+	color: red;
+}
+
+
+
+footer{
+  width: 100%;
+  min-height: 300px;
+  max-height: auto;
+  background-color: rgba(0,0,0,0.9);
+  margin-top: 10px;
+  clear: both;
+  margin-top: 80px;
+}
+footer .footer-wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 9%;
+  color: white;
+}
+.widgetFooter{
+  width: calc(85%/3);
+  height: auto;
+  float: left;
+  padding: 2.5%;
+  text-align: left;
+}
+h4.uppercase{
+  text-transform: uppercase;
+}
+ul#footerUsefulLink, ul#footerMediaLinks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+ul#footerUsefulLink li, ul#footerMediaLinks li{
+  cursor: pointer;
+  /* transition: border-bottom 3s ease-in; */
+}
+ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
+   color: #00CED1;
+   /* border-bottom: 1px solid red; */
+}
+ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #3b5998; }
+ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { color: #1DA1F2; }
+ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { color: #ffc838; }
+
+
+div#footerLogo img{
+  width: 50%;
+  margin: 25% 0;
+}
+
+div.footerCopy{
+  clear: both;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  border-top: 1px solid #ccc;
+}
